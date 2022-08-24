@@ -8,7 +8,7 @@ import concurrent.futures
 
 
 def send_request(domain):
-    url = f"https://www.virustotal.com/vtapi/v2/domain/report?domain={domain}&apikey=8481e812a65fbcf355a05e86fb0c90ea18d5a0a0e9ddf9bc4ab4102288d07d9c"
+    url = f"https://www.virustotal.com/vtapi/v2/domain/report?domain={domain}&apikey=YOUR_API_KEY"
     resp = requests.get(url, timeout=(2,10))
     return get_urls_list(resp)
 
