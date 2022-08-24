@@ -9,7 +9,7 @@ import concurrent.futures
 
 def send_request(domain):
     url = f"https://otx.alienvault.com/api/v1/indicators/domain/{domain}/url_list"
-    api_key = {"X-OTX-API-KEY": "16b594d32bc00b10a1a893a99beb2a9fb80caefe27e01796998c10790a4a29eb"}
+    api_key = {"X-OTX-API-KEY": "YOUR_API_KEY"}
     resp = requests.get(url, headers=api_key, timeout=(2,5))
     return get_urls_list(resp)
 
