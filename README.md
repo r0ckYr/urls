@@ -20,15 +20,13 @@ Before using the tool, make sure you have the following prerequisites:
 
 ### Setup
 
-1. Clone or download this repository to your local machine.
+Clone or download this repository to your local machine.
    ```
      git clone https://github.com/r0ckYr/urls.git
      cd urls
   ```
 
-
-### Usage
-1. Run the script
+### Run the script
 ```
 python3 geturls.py <domain>
 ```
