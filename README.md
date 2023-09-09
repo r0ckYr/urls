@@ -19,12 +19,10 @@ Before using the tool, make sure you have the following prerequisites:
 - API keys (where applicable)
 
 ### Setup
-
-Clone or download this repository to your local machine.
-   ```
-     git clone https://github.com/r0ckYr/urls.git
-     cd urls
-  ```
+```
+git clone https://github.com/r0ckYr/urls.git
+cd urls
+```
 
 ### Run the script
 ```
