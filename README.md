@@ -8,6 +8,7 @@ This tool, comprised of several Python scripts, is designed to retrieve historic
 - Common Crawl
 - VirusTotal
 - Wayback Machine
+and more
 
 ## Usage
 
